@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top {
+    flex: 1;
+    display: flex;
+}
+
+.left-div {
+    background-color: chocolate;
+    width: 340px;
+    border-radius: 1rem;
+}
+
+.right-div {
+    background-color: chartreuse;
+    flex:1;
+}
+
+.main-bottom {
+    background-color: bisque;
+}
